@@ -55,6 +55,29 @@ nav ul li a:hover   {
     margin: 70px;
 }
 
+.anim {
+    text-align: c;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 350;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #3FB349;
+    position: relative;
+    animation-name: ojek;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ojek {
+    0% {left: 35%; top: 0px;}
+    25% {left: 15%; top: 0px;}
+    75% {left: 65%; top: 0px;}
+    100% {left: 35%; top: 0px;}
+}
+
+
 .judul-main {
     margin-bottom: 20px;
 }
@@ -148,6 +171,9 @@ footer img {
     }
 
     .kontak {
+        font-size: 6px;
+    }
+    .anim {
         font-size: 6px;
     }
 }
