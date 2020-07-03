@@ -1,0 +1,175 @@
+* {
+    font-family: Lato;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+header   {
+    background: #222;
+    color: #FFF;
+    padding: 20px 30px;
+  }
+
+#logo         {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 49%;
+  }
+#logo img {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#logo span   {
+    display: inline-block;
+}
+  
+  /* main navigation */
+nav     {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+nav ul   {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a    {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+    background: #444;
+}
+
+.container {
+    margin: 70px;
+}
+
+.judul-main {
+    margin-bottom: 20px;
+}
+
+.judul-main-tambahan {
+    display: inline;
+    font-size: 36px;
+    font-weight: 350;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.judul-main-tambahan:hover {
+    border-bottom: 5px solid #3FB349;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-content {
+    margin-bottom: 75px;
+}
+
+
+.judul-main-content {
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 350;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #3FB349;
+}
+
+.judul-main-content-gofood{
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 350;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #B90000;
+}
+
+
+.isi {
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    
+    margin: auto;
+}
+
+.isi-main-content img {
+    height: 250px;
+}
+
+.konten-main {
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 145px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    color: black;
+    background-color: #F4F4F4;
+}
+
+.kontak {
+    text-align: left;
+    font-size: 12px;
+}
+
+footer img {
+    max-height: 50px;
+}
+
+@media all and (max-width: 768px) {
+    .isi {
+        font-size: 12px;
+    }
+    .isi-main-content img {
+        max-height: 150px;
+    }
+    .judul-main-tambahan {
+        font-size: 18px;
+    }
+
+    .kontak {
+        font-size: 6px;
+    }
+}
+
+@media all and (min-width: 768px) {
+
+    .isi-main-content {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .isi {
+        padding-left: 80px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .isi-main-content img {
+        max-height: 100px;
+    }
+
+    header {
+        align-items: center;
+    }
+}
